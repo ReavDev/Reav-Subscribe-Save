@@ -1,0 +1,26 @@
+.reav-subscriptions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.reav-subscriptions-table th,
+.reav-subscriptions-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.reav-subscriptions-table th {
+    background-color: #f9f9f9;
+}
+
+.reav-subscription-row input,
+.reav-subscription-row select,
+.reav-subscription-row textarea {
+    width: 100%;
+}
+
+.reav-subscription-row textarea {
+    resize: vertical;
+}

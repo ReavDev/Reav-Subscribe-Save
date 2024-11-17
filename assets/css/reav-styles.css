@@ -1,0 +1,135 @@
+form.cart, .woocommerce-variation-add-to-cart {
+    flex-direction: column;
+}
+
+.reav-buy-and-save {
+    color: #333;
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.reav-buy-and-save li {
+    list-style: none;
+}
+
+.reav-buy-and-save p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.reav-buy-and-save input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.reav-buy-and-save label {
+    display: block;
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin-bottom: 5px;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 5px;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.reav-buy-and-save input[type="radio"]:checked + label {
+    border: 2px solid #000; 
+    background-color: #f8f8f8; 
+}
+
+.reav-buy-and-save .reav-price {
+    float: right;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.reav-buy-and-save label::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.reav-buy-and-save .reav-subscription-details {
+    margin-top: 5px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.reav-buy-and-save .reav-subscription-details li {
+    font-size: 12px;
+    color: #555;
+    list-style: none;
+}
+
+.reav-buy-and-save .reav-subscription-features {
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+}
+
+.reav-buy-and-save .reav-subscription-features li {
+    padding: 5px 0 5px 20px;
+    position: relative;
+}
+
+.reav-buy-and-save .reav-subscription-features li::before {
+    content: '\2713'; 
+    color: #000000;
+    position: absolute;
+    left: 0;
+    font-size: 12px;
+    line-height: 2;
+}
+
+.single_add_to_cart_button {
+    display: block;
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.single_add_to_cart_button:hover {
+    background-color: #291450;
+    transform: translateY(-2px);
+}
+
+.single_add_to_cart_button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .reav-buy-and-save .reav-price {
+        float: none;
+        display: block;
+        margin-top: 5px;
+    }
+}
+
+.single_add_to_cart_button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
