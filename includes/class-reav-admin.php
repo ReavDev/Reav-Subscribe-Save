@@ -6,12 +6,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 class Reav_Admin {
 
     public function __construct() {
+        // Add admin menu
         add_action( 'admin_menu', array( $this, 'add_admin_menu' ) );
+
+        // Register settings
         add_action( 'admin_init', array( $this, 'register_settings' ) );
 
+        // Add per-product settings
         add_action( 'woocommerce_product_options_general_product_data', array( $this, 'add_product_fields' ) );
         add_action( 'woocommerce_admin_process_product_object', array( $this, 'save_product_fields' ) );
 
+        // Enqueue admin scripts and styles
         add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_scripts' ) );
     }
 
@@ -135,6 +140,7 @@ class Reav_Admin {
      * Render a subscription row
      */
     private function render_subscription_row( $subscription = array(), $index = 0, $is_product = false ) {
+        // Determine the field name prefix based on whether it's a global or product subscription
         $field_name_prefix = $is_product ? 'reav_product_subscriptions' : 'reav_global_subscriptions[subscriptions]';
         ?>
         <tr class="reav-subscription-row">
