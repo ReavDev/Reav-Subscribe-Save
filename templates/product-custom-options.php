@@ -69,7 +69,14 @@ global $product;
                             printf( __( 'Frequency: Every %s %s(s)', 'reav-buy-and-save' ), $frequency_number, $frequency_period );
                             ?>
                         </li>
-                        <li><?php printf( __( 'Discount: %s%%', 'reav-buy-and-save' ), esc_html( $subscription['discount'] ) ); ?></li>
+                        <li class="reav-discount">
+                            <?php 
+                            printf( 
+                                __( 'Discount: <span class="reav-discount-value">%s%%</span>', 'reav-buy-and-save' ), 
+                                esc_html( $subscription['discount'] ) 
+                            ); 
+                            ?>
+                        </li>
                         <?php if ( ! empty( $subscription['features'] ) ) : ?>
                             <ul class="reav-subscription-features">
                                 <?php foreach ( $subscription['features'] as $feature ) : ?>

@@ -69,7 +69,7 @@ form.cart, .woocommerce-variation-add-to-cart {
 }
 
 .reav-buy-and-save .reav-subscription-details li {
-    font-size: 12px;
+    font-size: 13px;
     color: #555;
     list-style: none;
 }
@@ -132,4 +132,17 @@ form.cart, .woocommerce-variation-add-to-cart {
 .single_add_to_cart_button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
+}
+
+.reav-discount-value {
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #000000;
+    margin: 10px 0;
+}
+
+.reav-discount {
+    margin: 10px 0;
 }
