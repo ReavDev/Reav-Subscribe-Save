@@ -8,11 +8,11 @@ Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Reav Buy and Save allows customers to choose between a one-time purchase or a discounted subscription for your WooCommerce products.
+Reav Subscribe & Save allows customers to choose between a one-time purchase or a discounted subscription for your WooCommerce products.
 
 == Description ==
 
-**Reav Buy and Save** enhances your WooCommerce store by offering customers the flexibility to either make a one-time purchase or subscribe and save. It provides:
+**Reav Subscribe & Save** enhances your WooCommerce store by offering customers the flexibility to either make a one-time purchase or subscribe and save. It provides:
 
 - **Subscription Options:** Define global or per-product subscription plans with custom frequencies and discounts.
 - **Tax Handling:** Correctly calculates and displays prices including or excluding taxes based on your WooCommerce settings.
@@ -44,7 +44,7 @@ Reav Buy and Save allows customers to choose between a one-time purchase or a di
 ### Global Subscription Settings
 
 1. **Navigate to the Settings Page:**
-   - Go to **WooCommerce > Reav Buy and Save**.
+   - Go to **WooCommerce > Reav Subscribe & Save**.
 
 2. **Add Subscription Plans:**
    - Under **Global Subscription Types**, add your subscription plans.

@@ -42,7 +42,7 @@ class Reav_Frontend {
      */
     public function woocommerce_subscriptions_inactive_notice() {
         echo '<div class="notice notice-error"><p>';
-        _e( 'Reav Buy and Save requires WooCommerce Subscriptions to be installed and active.', 'reav-buy-and-save' );
+        _e( 'Reav Subscribe & Save requires WooCommerce Subscriptions to be installed and active.', 'reav-buy-and-save' );
         echo '</p></div>';
     }
 

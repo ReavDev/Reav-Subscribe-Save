@@ -36,8 +36,8 @@ class Reav_Admin {
     public function add_admin_menu() {
         add_submenu_page(
             'woocommerce',
-            __( 'Reav Buy and Save Settings', 'reav-buy-and-save' ),
-            __( 'Reav Buy and Save', 'reav-buy-and-save' ),
+            __( 'Reav Subscribe & Save Settings', 'reav-buy-and-save' ),
+            __( 'Reav Subscribe & Save', 'reav-buy-and-save' ),
             'manage_options',
             'reav-buy-and-save',
             array( $this, 'create_admin_page' )
@@ -50,7 +50,7 @@ class Reav_Admin {
     public function create_admin_page() {
         ?>
         <div class="wrap">
-            <h1><?php _e( 'Reav Buy and Save Settings', 'reav-buy-and-save' ); ?></h1>
+            <h1><?php _e( 'Reav Subscribe & Save Settings', 'reav-buy-and-save' ); ?></h1>
             <form method="post" action="options.php">
                 <?php
                 settings_fields( 'reav_settings_group' );

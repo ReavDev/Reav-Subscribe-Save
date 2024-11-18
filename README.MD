@@ -9,11 +9,11 @@
 **License:** GPLv2 or later  
 **License URI:** [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
 
-**Reav Buy and Save** allows customers to choose between a one-time purchase or a discounted subscription for your WooCommerce products. It seamlessly integrates with WooCommerce Subscriptions, handles taxes correctly, and supports variable products.
+**Reav Subscribe & Save** allows customers to choose between a one-time purchase or a discounted subscription for your WooCommerce products. It seamlessly integrates with WooCommerce Subscriptions, handles taxes correctly, and supports variable products.
 
 ## Description
 
-**Reav Buy and Save** enhances your WooCommerce store by offering customers the flexibility to either make a one-time purchase or subscribe and save. It provides:
+**Reav Subscribe & Save** enhances your WooCommerce store by offering customers the flexibility to either make a one-time purchase or subscribe and save. It provides:
 
 - **Subscription Options:** Define global or per-product subscription plans with custom frequencies and discounts.
 - **Tax Handling:** Correctly calculates and displays prices including or excluding taxes based on your WooCommerce settings.
@@ -35,7 +35,7 @@
    - Upload the `reav-buy-and-save` folder to the `/wp-content/plugins/` directory.
 
 2. **Activate the Plugin:**
-   - Navigate to the 'Plugins' menu in WordPress and activate the 'Reav Buy and Save' plugin.
+   - Navigate to the 'Plugins' menu in WordPress and activate the 'Reav Subscribe & Save' plugin.
 
 3. **Requirements:**
    - Ensure that **WooCommerce** and **WooCommerce Subscriptions** are installed and activated.
@@ -45,7 +45,7 @@
 ### Global Subscription Settings
 
 1. **Navigate to the Settings Page:**
-   - Go to **WooCommerce > Reav Buy and Save**.
+   - Go to **WooCommerce > Reav Subscribe & Save**.
 
 2. **Add Subscription Plans:**
    - Under **Global Subscription Types**, add your subscription plans.
@@ -130,5 +130,5 @@ For support, please visit [Your Support Page](https://reavdev.com/support) or co
 
 ---
 
-**Thank you for using Reav Buy and Save!** If you have any suggestions or encounter any issues, feel free to reach out.
+**Thank you for using Reav Subscribe & Save!** If you have any suggestions or encounter any issues, feel free to reach out.
 
