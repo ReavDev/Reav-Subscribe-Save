@@ -1,4 +1,4 @@
-# Reav Buy and Save for WooCommerce
+# Reav Subscribe & Save
 
 **Contributors:** ReavDev  
 **Tags:** WooCommerce, Subscriptions, Discounts, Variable Products, Tax Handling  

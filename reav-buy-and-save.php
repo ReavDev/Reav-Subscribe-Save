@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Reav Buy and Save for WooCommerce
+ * Plugin Name: Reav Subscribe & Save
  * Description: Allows customers to choose purchase type and subscription options with features.
  * Version: 1.0.0
  * Author: ReavDev

@@ -1,4 +1,4 @@
-=== Reav Buy and Save for WooCommerce ===
+=== Reav Subscribe & Save ===
 Contributors: reavdev
 Tags: woocommerce, subscriptions, discounts, variable-products, tax-handling
 Requires at least: 5.0
@@ -34,7 +34,7 @@ Reav Buy and Save allows customers to choose between a one-time purchase or a di
    - Upload the `reav-buy-and-save` folder to the `/wp-content/plugins/` directory.
 
 2. **Activate the Plugin:**
-   - Navigate to the 'Plugins' menu in WordPress and activate the 'Reav Buy and Save for WooCommerce' plugin.
+   - Navigate to the 'Plugins' menu in WordPress and activate the 'Reav Subscribe & Save' plugin.
 
 3. **Requirements:**
    - Ensure that **WooCommerce** and **WooCommerce Subscriptions** are installed and activated.
